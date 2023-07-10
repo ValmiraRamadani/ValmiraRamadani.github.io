@@ -1,0 +1,149 @@
+body{
+    background: linear-gradient(hotpink,lightpink);
+    height: 735px;
+    width: 1500px;
+}
+h1{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: deeppink;
+    font-size: 50px;
+    margin-left: 40px;
+}
+h2{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: deeppink;
+    font-size: 40px;
+    text-align: center;
+}
+nav form button{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: deeppink;
+    font-size: 40px;
+}
+.pic{
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+    margin-left: 90px;
+}
+header{
+    margin: auto;
+    width: 430px;
+    background-color: lightpink;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+button{
+    width: 230px;
+    background-color: lightpink;
+    border-radius: 20px;
+    justify-content: center;
+    border-style: solid;
+    border-color: blueviolet;
+    height: 100px;
+    margin-top: 50px;
+}
+button:hover{
+    cursor: pointer;
+    border-color: lightpink;
+    background-color: blueviolet;
+}
+button:active{
+    border-color: lightpink;
+    background-color: #b569ff;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 50px;
+}
+.flower{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top:100px;
+}
+.flower2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top:100px;
+    right: 0;
+}
+.flower3{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top:180px;
+    left:100px;
+}
+.flower4{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top:180px;
+    right:100px;
+}
+.heart{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top:300px;
+    right:250px;
+}
+.heart2{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top:400px;
+    left:300px;
+}
+p{
+    color: rebeccapurple;
+    padding-top: 30px;
+    text-align: center;
+    font-family: Arial,sans-serif;
+    font-size: 20px;
+}
+footer{
+    background-color: #b569ff;
+    position: absolute;
+    bottom: -147px;
+    width: 1500px;
+    height: 150px;
+    margin-left: -10px;
+    padding-right: 20px;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+}
+hr{
+    width: 700px;
+}
+.voleyball{
+    margin-left: 50px;
+    margin-top: 170px;
+    width: 430px;
+    background-color: lightpink;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+.places{
+    margin-left: 50px;
+    margin-top: 170px;
+    width: 430px;
+    background-color: lightpink;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+.ach1{
+    width: 1000px;
+    margin: auto;
+}
+.pics{
+    margin-top: 50px;
+}
